@@ -1,16 +1,16 @@
 {
-    "esversion": 6, // Use ECMAScript 6 features
+    "esversion": 8, // Use ECMAScript 8 (to support async functions, trailing commas, etc.)
     "node": true, // Enable Node.js environment
-    "browser": false, // Disable browser environment
-    "devel": true, // Allow console.log and alert
     "asi": true, // Allow missing semicolons
     "laxbreak": true, // Allow non-standard line breaks
-    "dot": false, // Allow non-dot notation
-    "trailing": false, // Ignore trailing commas
-    "globals": { // Predefined globals
+    "sub": true, // Allow bracket notation (to avoid dot notation errors)
+    "undef": false, // Ignore warnings about undefined variables
+    "unused": false, // Ignore warnings about unused variables
+    "globals": { // Define allowed global variables
         "describe": true,
         "it": true,
         "require": true,
         "module": true
-    }
+    },
+    "maxerr": 50 // Set maximum number of warnings before stopping
 }
