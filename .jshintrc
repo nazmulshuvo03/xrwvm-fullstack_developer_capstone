@@ -1,0 +1,16 @@
+{
+    "esversion": 6, // Use ECMAScript 6 features
+    "node": true, // Enable Node.js environment
+    "browser": false, // Disable browser environment
+    "devel": true, // Allow console.log and alert
+    "asi": true, // Allow missing semicolons
+    "laxbreak": true, // Allow non-standard line breaks
+    "dot": false, // Allow non-dot notation
+    "trailing": false, // Ignore trailing commas
+    "globals": { // Predefined globals
+        "describe": true,
+        "it": true,
+        "require": true,
+        "module": true
+    }
+}
